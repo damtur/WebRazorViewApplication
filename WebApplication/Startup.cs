@@ -1,21 +1,20 @@
 ﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using Platform;
 
 namespace WebApplication
 {
-    public class Startup
+    public class Startup : IPlatformStartup
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddPlatform();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
-            app.UseDeveloperExceptionPage();
-            app.UseMvc();
+            app.UsePlatform();
+            
         }
     }
 }

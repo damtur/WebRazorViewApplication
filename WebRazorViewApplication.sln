@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorViews", "RazorViews\RazorViews.csproj", "{FAC4CE56-0964-4B77-A8AF-59C7EC2104AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "Platform\Platform.csproj", "{B5D9713F-9D8C-404D-9D72-D7F8B4318EFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{FAC4CE56-0964-4B77-A8AF-59C7EC2104AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC4CE56-0964-4B77-A8AF-59C7EC2104AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC4CE56-0964-4B77-A8AF-59C7EC2104AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D9713F-9D8C-404D-9D72-D7F8B4318EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D9713F-9D8C-404D-9D72-D7F8B4318EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D9713F-9D8C-404D-9D72-D7F8B4318EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D9713F-9D8C-404D-9D72-D7F8B4318EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
