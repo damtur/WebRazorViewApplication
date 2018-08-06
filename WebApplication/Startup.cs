@@ -4,17 +4,16 @@ using Platform;
 
 namespace WebApplication
 {
-    public class Startup : IPlatformStartup
+    public class Startup : PlatformStartup
     {
-        public void ConfigureServices(IServiceCollection services)
+        protected override void ConfigureMicroserviceServices(IServiceCollection services)
         {
             services.AddPlatform();
         }
 
-        public void Configure(IApplicationBuilder app)
+        public override void Configure(IApplicationBuilder app)
         {
             app.UsePlatform();
-            
         }
     }
 }

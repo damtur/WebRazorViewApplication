@@ -6,7 +6,6 @@ namespace Platform
     {
         public static void UsePlatform(this IApplicationBuilder app)
         {
-            app.UseDeveloperExceptionPage();
             app.UseMvc(); 
         }
     }
